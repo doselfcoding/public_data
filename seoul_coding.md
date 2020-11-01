@@ -161,7 +161,7 @@ def filter(df):
 ```
 
 # 서울시 코딩 & 교습소 개수 총합
-```
+```python
 total_file_path = "data/final_SEOUL_SIG_total.html"
 #print("total names: ", total_names.to_string())
 total_gu_info_list = set_color_for_cities(total_coding_count_per_cities)
@@ -170,7 +170,7 @@ create_html(total_gu_info_list, total_file_path)
 ```
 
 # 구글 트렌드 (코딩에 대한 관심)
-```
+```python
 # -*- coding: utf-8 -*-
 import numpy as np
 import pandas as pd
@@ -218,6 +218,4 @@ sns.lineplot(data=moving_avg, label="이동평균선 (분기)")
 plt.title("Google Trends 관심도\n(키워드='코딩', 국가='대한민국', 기간='2015 ~ 2020')", fontsize=20)
 plt.xticks(pos_list, labels, rotation='vertical')
 plt.show()
-
-
 ```
