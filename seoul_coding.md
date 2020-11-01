@@ -169,7 +169,7 @@ print("total gu info list: ", total_gu_info_list)
 create_html(total_gu_info_list, total_file_path)
 ```
 
-# 구글 트렌드 (코딩에 대한 관심)
+# 구글 트렌드 (코딩에 대한 관심도)
 ```python
 # -*- coding: utf-8 -*-
 import numpy as np
